@@ -21,3 +21,40 @@
     color: rgb(241, 15, 15);
 
  }
+
+ h2 {
+   text-align: center;
+   color: rgb(254, 255, 255);
+   font-size: 5rem;
+   padding-top: 7%;;
+ }
+
+ .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 7%;
+    h3 {
+      text-align: center;
+      color: aliceblue;
+      margin-right: 100%;
+    }
+
+ }
+  
+ .sushi-black {
+   width: 10%;
+   min-width: 15rem;
+
+ }
+
+ .sushi-black img {
+   width: 70%;
+   aspect-ratio: 1/1;
+   object-fit: cover;
+   border-radius: 1rem;
+   padding-top: 3%;
+ }
