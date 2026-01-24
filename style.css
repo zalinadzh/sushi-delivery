@@ -24,19 +24,30 @@
 
  h2 {
    text-align: center;
-   color: rgb(254, 255, 255);
    font-size: 5rem;
-   padding-top: 7%;;
+   color: rgb(254, 255, 255);
+   padding-top: 7%;
+   padding-bottom: 5%;
  }
+
+ .roll {
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   gap: 5remS;
+   padding-right: 2%;
+   
+}
 
  .catalog {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 7%;
+    padding-top: 1%;
+   padding-left: 2%;
+
+    
     h3 {
       text-align: center;
       color: aliceblue;
@@ -46,15 +57,48 @@
  }
   
  .sushi-black {
-   width: 10%;
+   width: 30%;
    min-width: 15rem;
 
  }
 
  .sushi-black img {
    width: 70%;
+   
    aspect-ratio: 1/1;
    object-fit: cover;
    border-radius: 1rem;
    padding-top: 3%;
+ }
+
+
+ .about {
+   display: flex;
+   flex-direction: column;
+
+   flex-shrink: 0;
+   width: 20%;
+   text-align: left;
+   color: aliceblue;
+   
+
+   
+ }
+
+ .sales {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   color: #fffdfd;S
+
+ }
+
+ .sales h3 {
+   font-size: 3.5rem;
+   padding-bottom: 5%;
+ }
+ .sales img {
+   width: 100%;
+   min-width: 250px;
+   padding-top: 10%;
  }
