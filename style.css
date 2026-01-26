@@ -1,5 +1,6 @@
 * {margin: 0;
-   padding: 0;}
+   padding: 0;
+  box-sizing: border-box;}
 
  body {
     background-color: black;
@@ -11,7 +12,8 @@
     align-items: flex-start;
     gap: 2rem;
     background-color: rgb(247, 244, 244);
-    padding:20px 50px;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
     color: rgb(7, 7, 7);
     
  }
@@ -39,6 +41,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  padding-right: 1rem;
  }
 
 
@@ -46,7 +49,7 @@
    display: flex;
    justify-content: space-around;
    align-items: flex-start;
-   gap: 5remS;
+   gap: 3rem;
    padding-right: 2%;
    
 }
@@ -84,11 +87,6 @@
   border-radius: 0.5rem;
   cursor: pointer;
  }
-
-
-
-    
-    
 
  
   
@@ -174,3 +172,46 @@
  .nav a {
    color: aliceblue;
  }
+
+
+  @media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+
+  }
+  
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .catalog, .sales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .roll {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
