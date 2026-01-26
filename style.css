@@ -42,8 +42,6 @@
  }
 
 
- 
-
  .roll {
    display: flex;
    justify-content: space-around;
@@ -61,14 +59,28 @@
     padding-top: 1%;
    padding-left: 2%;
 
-    
-    h3 {
+
+   h3 {
       text-align: center;
       color: aliceblue;
       margin-right: 100%;
+      padding-bottom: 1rem;
     }
-
  }
+
+ .catalog button {
+  background-color: #fa7b04;
+  color: white;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+ }
+
+    
+    
+
+ 
   
  .sushi-black {
    width: 30%;
